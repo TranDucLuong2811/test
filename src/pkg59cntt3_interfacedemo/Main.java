@@ -18,6 +18,7 @@ public class Main {
         // TODO code application logic here
         ICalculate calculator =new CasioCaculator();
         System.out.println("4+5=" + calculator.cong(4,5));
+        System.out.println("4*5=" + calculator.cong(4,5));
     }
     
 }
